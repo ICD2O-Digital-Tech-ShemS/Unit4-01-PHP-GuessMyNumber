@@ -16,21 +16,15 @@
     <?php 
 			echo "<h3>Guess The NUmber</h3>";
 		?>
-        <form action="./result.php" method="post" target="results">
+        <form action="./result.php" method="post" target="result">
         <label for="guessNumber">Guess the Number</label>
         <input type="number" id="guessNumber" placeholder="guessNumber" name="guessNumber">
         <br><br>
         <input type="submit" value="Guess Number">
 		</form>
-<!-- Calculate Button -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="Guess()">
-          Guess
-        </button>
         
-        <iframe id="results" name="results">			
-        <<div id="answers">
+        <iframe id="result" name="result">			
+        <div id="answers">
           <div id="ans"></div>
         </div>
 	    </iframe>
