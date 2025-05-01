@@ -24,9 +24,7 @@
 		</form>
         
         <iframe id="result" name="result">			
-        <div id="answers">
           <div id="ans"></div>
-        </div>
 	    </iframe>
   </body>
 </html>
